@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botón para buscar dispositivos -->
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar_dispositivos" />
+
+        <!-- Lista de dispositivos -->
+        <ListView
+            android:id="@+id/lvDevices"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <!-- Área de datos recibidos -->
+        <TextView
+            android:id="@+id/tvDataReceived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#EEE"
+            android:text="@string/datos_recibidos" />
+
+        <!-- Campo de entrada y envío -->
+        <EditText
+            android:id="@+id/etSendData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enviar_datos_al_hc_06" />
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

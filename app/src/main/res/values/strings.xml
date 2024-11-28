@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bluetooth HC-06</string>
+    <string name="enviar">Enviar</string>
+    <string name="buscar_dispositivos">Buscar Dispositivos</string>
+    <string name="datos_recibidos">Datos recibidos</string>
+    <string name="enviar_datos_al_hc_06">Enviar datos al HC-06</string>
+</resources>
